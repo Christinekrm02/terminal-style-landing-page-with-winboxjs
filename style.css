@@ -38,6 +38,9 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
+p {
+  margin: 20px 20px;
+}
 nav {
   width: 30%;
 }
@@ -80,4 +83,11 @@ set keyframes */
   50% {
     color: var(--text-color);
   }
+}
+
+/* change body background color of winbox body
+get body classname from inspection */
+.wb-body {
+  background: #111;
+  padding: 20px;
 }
